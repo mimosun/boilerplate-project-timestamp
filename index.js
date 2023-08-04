@@ -25,7 +25,7 @@ app.get("/api/hello", function (req, res) {
 });
 
 // Timestamp API
-app.get('/:date?', (req, res) => {
+app.get('/api/:date?', (req, res) => {
   let date = new Date()
 
   if (req.params.date) {
